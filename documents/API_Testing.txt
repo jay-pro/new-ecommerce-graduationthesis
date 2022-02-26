@@ -1,0 +1,80 @@
+- Backend:
+===================================================================
++ Product:
+.GET Get all products
+http://localhost:4000/api/v1/products
+
+.POST Admin Role - Create a product
+http://localhost:4000/api/v1/product/new
+
+.PUT Admin Role - Update a product
+http://localhost:4000/api/v1/product/61686df4597d57072027bc52
+
+.DEL Admin Role - Delete a product
+http://localhost:4000/api/v1/product/616e6ab40aac2dbea26bdd19
+
+.GET Get a product details
+http://localhost:4000/api/v1/product/616e6ab40aac2dbea26bdd19
+===================================================================
++ Authentication:
+.POST Register User
+http://localhost:4000/api/v1/register
+
+.POST Login User
+http://localhost:4000/api/v1/login
+
+.GET Logout User
+http://localhost:4000/api/v1/logout
+
+.POST Forgot Password (Oops)
+http://localhost:4000/api/v1/password/forgot
+
+.PUT Reset Password (Oops)
+http://localhost:4000/api/v1/password/reset/(mã token)
+===================================================================
++ User Routes:
+.PUT Create / Update Review
+http://localhost:4000/api/v1/review
+
+.GET User Details
+http://localhost:4000/api/v1/me
+
+.PUT Update User Password
+http://localhost:4000/api/v1/password/update
+
+.PUT Update User Profile
+http://localhost:4000/api/v1/me/update
+
+.GET Admin Role - Get all users
+http://localhost:4000/api/v1/admin/users
+
+.DEL Admin Role - Delete an user
+http://localhost:4000/api/v1/admin/user/616c5ffe8fee47083aaedb73
+
+.PUT Admin Role - Update User
+http://localhost:4000/api/v1/admin/user/617147c20e7cfa5c467e3c1f
+
+.GET Admin Role - Get an user details
+http://localhost:4000/api/v1/admin/user/617147c20e7cfa5c467e3c1f
+
+.GET Get All Reviews (Oops)
+http://localhost:4000/api/v1/reviews?Id=616fe2938ec56e16c8eefbba
+
+.DEL Delete A Review (Oops)
+http://localhost:4000/api/v1/reviews?Id=616fe2938ec56e16c8eefbba&productId=616e6650ddd5762aa4f544a9
+===================================================================
++ Order:
+.POST Create a new order
+http://localhost:4000/api/v1/order/new
+
+.GET Single Order
+http://localhost:4000/api/v1/order/617bb116059eaeaaf4a70e9d
+
+.GET Admin Role - Get All Orders
+http://localhost:4000/api/v1/admin/orders
+
+.PUT Admin Role - Update Order (Status)
+http://localhost:4000/api/v1//admin/order/617bb116059eaeaaf4a70e9d
+
+.DEL Admin Role - Delete Order
+http://localhost:4000/api/v1//admin/order/617bc37e9ff12b178a18c4e4
