@@ -4,7 +4,9 @@
   "description": "- 👩🏻‍💻 18110168 Bùi Hà Nhi [Facebook](https://www.facebook.com/bhanih)\r - 👨🏻‍💻 18110",
   "main": "backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
