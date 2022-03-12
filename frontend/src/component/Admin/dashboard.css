@@ -1,0 +1,98 @@
+/* .dashboard {
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+  }
+  
+  .dashboardContainer {
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(255, 255, 255);
+    padding: 0.2rem 0;
+  }
+  
+  .dashboardContainer > h1 {
+    color: rgba(0, 0, 0, 0.733);
+    font: 300 2rem "Vibur";
+    text-align: center;
+    width: 50%;
+    padding: 1.5rem;
+    margin: auto;
+  }
+  
+  .dashboardSummary {
+    margin: 0.1rem 0;
+  }
+  
+  .dashboardSummary > div {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+  }
+  .dashboardSummary > div > p {
+    background-color: #a06cd5;
+    color: white;
+    font: 300 1.3rem "Vibur";
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 0.5rem;
+  }
+  .dashboardSummaryBox2 > a {
+    color: black;
+    font: 300 1rem "Vibur";
+    text-align: center;
+    background-color: #c19ee0;
+    text-decoration: none;
+    padding: 0.1rem;
+    width: 8vmax;
+    height: 8vmax;
+    margin: 1rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .dashboardSummaryBox2 > a:first-child {
+    background-color: #d2b7e5;
+    color: black;
+  }
+  
+  .dashboardSummaryBox2 > a:last-child {
+    background-color: #b185db;
+    color: black;
+  }
+  
+  .lineChart {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .doughnutChart {
+    width: 30vmax;
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .dashboard {
+      grid-template-columns: 1fr;
+    }
+  
+    .dashboardContainer {
+      border-left: none;
+    }
+  
+    .dashboardSummary > div > p {
+      margin: 0;
+    }
+  
+    .dashboardSummaryBox2 > a {
+      padding: 0.5rem;
+      margin: 1rem;
+      font: 300 0.9rem "Vibur";
+    }
+  }
+   */
