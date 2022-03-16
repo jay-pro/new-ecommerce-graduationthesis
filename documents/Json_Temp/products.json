@@ -1,0 +1,393 @@
+[{
+  "_id": {
+    "$oid": "6168669b56af38fcca86f9e6"
+  },
+  "name": "Artificial Intelligence Basics: A Non-Technical Introduction - Tom Taulli",
+  "description": "Google, Amazon, Facebook, and similar tech giants are far from the only organizations on which artificial intelligence has had—and will continue to have—an incredibly significant result. AI is the present and the future of your business as well as your home life. Strengthening your prowess on the subject will prove invaluable to your preparation for the future of tech, and Artificial Intelligence Basics is the indispensable guide that you’ve been seeking.",
+  "price": 51588,
+  "ratings": 0,
+  "category": "Novels",
+  "Stock": 10,
+  "numOfReviews": 1,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://m.media-amazon.com/images/I/71hMl8xlJqL._AC_UL480_QL65_.jpg",
+      "_id": {
+        "$oid": "61815630b8b9068a6c991f5d"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "61b05cdbd92bb36248f12a9e"
+      },
+      "name": "vuxx",
+      "rating": 0,
+      "comment": "gggg",
+      "_id": {
+        "$oid": "61b06d13d92bb36248f12e65"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-14T17:19:23.832Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "6169427eb4754e78a6189ca5"
+  },
+  "name": "Cloud Computing: Concepts, Technology, & Architecture - Thomas Erl",
+  "description": "In Cloud Computing: Concepts, Technology & Architecture, Thomas Erl, one of the world's top-selling IT authors, teams up with cloud computing experts and researchers to break down proven and mature cloud computing technologies and practices into a series of well-defined concepts, models, technology mechanisms, and technology architectures, all from an industry-centric and vendor-neutral point of view. In doing so, the book establishes concrete, academic coverage with a focus on structure, clarity, and well-defined building blocks for mainstream cloud computing platforms and solutions.",
+  "price": 44141,
+  "ratings": 4.333333333333333,
+  "category": "Science Technology Books",
+  "Stock": 19,
+  "numOfReviews": 3,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51Q-hyRTPDL._SX363_BO1,204,203,200_.jpg",
+      "_id": {
+        "$oid": "6181565ab8b9068a6c991f62"
+      }
+    },
+    {
+      "public_id": "sample Image",
+      "url": "https://m.media-amazon.com/images/I/81+dXJp404L._AC_SL1500_.jpg",
+      "_id": {
+        "$oid": "61a65cc8b39a351f7fcf7bab"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "619a8e43cc3a82c1fbb556e6"
+      },
+      "name": "incognito user",
+      "rating": 5,
+      "comment": "rwwww",
+      "_id": {
+        "$oid": "619a8e64cc3a82c1fbb5571f"
+      }
+    },
+    {
+      "user": {
+        "$oid": "619d127bd3da46c387b18cd0"
+      },
+      "name": "Vu Nguyen",
+      "rating": 3,
+      "comment": "",
+      "_id": {
+        "$oid": "619d2f1dcee64c043ba92e6b"
+      }
+    },
+    {
+      "user": {
+        "$oid": "618fd529339ac90d6540410c"
+      },
+      "name": "littlejaycece",
+      "rating": 5,
+      "comment": "có 2 ảnh",
+      "_id": {
+        "$oid": "61a9d80e12a377f3e900d968"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-15T08:57:34.899Z"
+  },
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "61694320b4754e78a6189ca7"
+  },
+  "name": "The C Programming Language. 2nd Edition - Brian Kernighan",
+  "description": "The C Programming Language (sometimes termed K&R, after its authors' initials) is a computer programming book written by Brian Kernighan and Dennis Ritchie, the latter of whom originally designed and implemented the language, as well as co-designed the Unix operating system with which development of the language was closely intertwined. The book was central to the development and popularization of the C programming language and is still widely read and used today. Because the book was co-authored by the original language designer, and because the first edition of the book served for many years as the de facto standard for the language, the book was regarded by many to be the authoritative reference on C.",
+  "price": 46056,
+  "ratings": 2.3333333333333335,
+  "category": "Science Technology Books",
+  "Stock": 18,
+  "numOfReviews": 3,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51TGEPRTDNL.jpg",
+      "_id": {
+        "$oid": "618153fdb8b9068a6c991f1f"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6199d6315434a22e53df2fde"
+      },
+      "name": "Quang Vu",
+      "rating": 2,
+      "comment": "chủ shop dễ thương ",
+      "_id": {
+        "$oid": "6199e5db5434a22e53df3338"
+      }
+    },
+    {
+      "user": {
+        "$oid": "619ced4ed3da46c387b18462"
+      },
+      "name": "Phương Chi",
+      "rating": 5,
+      "comment": "",
+      "_id": {
+        "$oid": "619d005bd3da46c387b18c3f"
+      }
+    },
+    {
+      "user": {
+        "$oid": "61b05cdbd92bb36248f12a9e"
+      },
+      "name": "vuxx",
+      "rating": 0,
+      "comment": "",
+      "_id": {
+        "$oid": "61b06dead92bb36248f12f4c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-15T09:00:16.222Z"
+  },
+  "__v": 3
+},{
+  "_id": {
+    "$oid": "6169438db4754e78a6189ca9"
+  },
+  "name": "JavaScript: The Good Parts: The Good Parts - Douglas Crockford",
+  "description": "Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation. Unfortunately, these good ideas are mixed in with bad and downright awful ideas, like a programming model based on global variables.",
+  "price": 16300,
+  "ratings": 5,
+  "category": "Science Technology Books",
+  "Stock": 99,
+  "numOfReviews": 1,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/5131OWtQRaL._SX381_BO1,204,203,200_.jpg",
+      "_id": {
+        "$oid": "61815472b8b9068a6c991f24"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "61b05cdbd92bb36248f12a9e"
+      },
+      "name": "vuxx",
+      "rating": 5,
+      "comment": "",
+      "_id": {
+        "$oid": "61b06d56d92bb36248f12e9f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-15T09:02:05.763Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "616943d5b4754e78a6189cab"
+  },
+  "name": "SQL QuickStart Guide: The Simplified Beginner's Guide to Managing, Analyzing, and Manipulating Data With SQL - Walter Shields",
+  "description": "Any database management professional will tell you that despite trendy data management languages that come and go, SQL remains the most widely used and most reliable to date, with no signs of stopping. In this comprehensive guide, experienced mentor and SQL expert Walter Shields draws on his considerable knowledge to make the topic of relational database management accessible, easy to understand, and highly actionable.",
+  "price": 15462,
+  "ratings": 2,
+  "category": "Science Technology Books",
+  "Stock": 10,
+  "numOfReviews": 1,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/4197ndPGkRL._SX404_BO1,204,203,200_.jpg",
+      "_id": {
+        "$oid": "618154b6b8b9068a6c991f29"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "618fd529339ac90d6540410c"
+      },
+      "name": "littlejaycece",
+      "rating": 2,
+      "comment": "hhmmm",
+      "_id": {
+        "$oid": "619af2b7e66313649e857fc4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-15T09:03:17.739Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "61694435b4754e78a6189cad"
+  },
+  "name": "Agile Software Development: Principles, Patterns, and Practices - Robert C. Martin",
+  "description": "Written by a software developer for software developers, this book is a unique collection of the latest software development methods. The author incudes OOD, UML, Design Patterns, Agile and XP methods with a detailed description of a complete software design for reusable programs in C++ and Java. Using a practical, problem-solving approach, it shows how to develop an object-oriented application -- from the early stages of analysis, through the low-level design and into the implementation. Walks readers through the designer's thoughts -- showing the errors, blind alleys, and creative insights that occur throughout the software design process. KEY TOPICS: Covers: Statics and Dynamics; Principles of Class Design; Complexity Management; Principles of Package Design; Analysis and Design; Patterns and Paradigm Crossings. Explains the principles of OOD, one by one, and then demonstrates them with numerous examples, completely worked-through designs, and case studies. Covers traps, pitfalls, and work arounds in the application of C++ and OOD and then shows how Agile methods can be used. Discusses the methods for designing and developing big software in detail. Features a three-chapter, in-depth, single case study of a building security system. MARKET: For Software Engineers, Programmers, and Analysts who want to understand how to design object oriented software with state of the art methods. ",
+  "price": 55471,
+  "ratings": 4,
+  "category": "Science Technology Books",
+  "Stock": 0,
+  "numOfReviews": 1,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51yHf-4GaSL._SX393_BO1,204,203,200_.jpg",
+      "_id": {
+        "$oid": "618154f2b8b9068a6c991f2e"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "618fd529339ac90d6540410c"
+      },
+      "name": "littlejaycece",
+      "rating": 4,
+      "comment": "ok",
+      "_id": {
+        "$oid": "619a3de03a0c74f1c87a6c8c"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-15T09:04:53.571Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "616944aeb4754e78a6189cb0"
+  },
+  "name": "C++: The Complete Reference, 4th Editions - Herbert Schildt",
+  "description": "Best-selling genius Herb Schildt covers everything from keywords, syntax, and libraries, to advanced features such as overloading, inheritance, virtual functions, namespaces, templates, and RTTI—plus, a complete description of the Standard Template Library (STL).",
+  "price": 84608,
+  "ratings": 4,
+  "category": "Science Technology Books",
+  "Stock": 10,
+  "numOfReviews": 1,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/5198Pr3CZEL._SX385_BO1,204,203,200_.jpg",
+      "_id": {
+        "$oid": "61815538b8b9068a6c991f33"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "user": {
+        "$oid": "619a8e43cc3a82c1fbb556e6"
+      },
+      "name": "incognito user",
+      "rating": 4,
+      "comment": "",
+      "_id": {
+        "$oid": "619a8e7ccc3a82c1fbb55747"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-10-15T09:06:54.905Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "616c41e96208eba86f0ac233"
+  },
+  "name": "(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide & Practice Tests Bundle - Mike Chapple",
+  "description": "Along with the book, you also get access to Sybex's superior online interactive learning environment that includes four unique 250 question practice exams to help you identify where you need to study more, more than 650 Electronic Flashcards to reinforce your learning and give you last-minute test prep before the exam, a searchable glossary in PDF to give you instant access to the key terms you need to know for the exam.",
+  "price": 189600,
+  "ratings": 0,
+  "category": "Science Technology Books",
+  "Stock": 20,
+  "numOfReviews": 0,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41oXq2SgyQL._SX404_BO1,204,203,200_.jpg",
+      "_id": {
+        "$oid": "61815569b8b9068a6c991f38"
+      }
+    }
+  ],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-10-17T15:31:53.981Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616c42556208eba86f0ac235"
+  },
+  "name": "High Sierra Loop-Backpack",
+  "description": "It's easy enough to install Wireshark and begin capturing packets off the wire--or from the air. But how do you interpret those packets once you've captured them? And how can those packets help you to better understand what's going on under the hood of your network? Practical Packet Analysis shows how to use Wireshark to capture and then analyze packets as you take an indepth look at real-world packet analysis and network troubleshooting. The way the pros do it.",
+  "price": 40000,
+  "ratings": 0,
+  "category": "School Supplies",
+  "Stock": 0,
+  "numOfReviews": 0,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://m.media-amazon.com/images/I/81WK8gRDN7L._AC_SL1500_.jpg",
+      "_id": {
+        "$oid": "618155adb8b9068a6c991f43"
+      }
+    },
+    {
+      "public_id": "sample Image",
+      "url": "https://m.media-amazon.com/images/I/81As-6-fE5L._AC_SL1500_.jpg",
+      "_id": {
+        "$oid": "61a65ac0b39a351f7fcf7ba0"
+      }
+    }
+  ],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-10-17T15:33:41.169Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616c428e6208eba86f0ac237"
+  },
+  "name": "Draw Your Own Comics",
+  "description": "All of the code in this edition has been updated to Python 3.x. You'll also find new coverage of bit shifting, code hygiene, and offensive forensics with the Volatility Framework as well as expanded explanations of the Python libraries ctypes, struct, lxml, and BeautifulSoup, and offensive hacking strategies like splitting bytes, leveraging computer vision libraries, and scraping websites. ",
+  "price": 30000,
+  "ratings": 0,
+  "category": "Comics",
+  "Stock": 10,
+  "numOfReviews": 0,
+  "images": [
+    {
+      "public_id": "sample Image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/61c0Cj4ELvL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "_id": {
+        "$oid": "618155d9b8b9068a6c991f48"
+      }
+    }
+  ],
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-10-17T15:34:38.370Z"
+  },
+  "__v": 0
+}]

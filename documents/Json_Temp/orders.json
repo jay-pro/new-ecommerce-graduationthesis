@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "619a304765329839e7ce5977"
+  },
+  "shippingInfo": {
+    "address": "ABC",
+    "city": "TayNinh",
+    "state": "37",
+    "country": "VN",
+    "pinCode": 840000,
+    "phoneNo": 908556677
+  },
+  "orderItems": [
+    {
+      "name": "The C Programming Language. 2nd Edition - Brian Kernighan",
+      "price": 46056,
+      "quantity": 2,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51TGEPRTDNL.jpg",
+      "product": {
+        "$oid": "61694320b4754e78a6189ca7"
+      },
+      "_id": {
+        "$oid": "619a304765329839e7ce5978"
+      }
+    },
+    {
+      "name": "Agile Software Development: Principles, Patterns, and Practices - Robert C. Martin",
+      "price": 55471,
+      "quantity": 1,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51yHf-4GaSL._SX393_BO1,204,203,200_.jpg",
+      "product": {
+        "$oid": "61694435b4754e78a6189cad"
+      },
+      "_id": {
+        "$oid": "619a304765329839e7ce5979"
+      }
+    }
+  ],
+  "user": {
+    "$oid": "619668e1760cc67d62b5eb7a"
+  },
+  "paymentInfo": {
+    "id": "pi_3JyEPaEh7O1uuawX0TOFhXjO",
+    "status": "succeeded"
+  },
+  "paidAt": {
+    "$date": "2021-11-21T11:40:55.213Z"
+  },
+  "itemsPrice": 147583,
+  "taxPrice": 3541.992,
+  "shippingPrice": 50000,
+  "totalPrice": 201124.992,
+  "orderStatus": "Shipped",
+  "createdAt": {
+    "$date": "2021-11-21T11:40:55.222Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61aa1ba8e697895d6f817810"
+  },
+  "shippingInfo": {
+    "address": "Trang Bang, Tay Ninh",
+    "city": "Tay Ninh",
+    "state": "37",
+    "country": "VN",
+    "pinCode": 840000,
+    "phoneNo": 987654321
+  },
+  "orderItems": [
+    {
+      "name": "High Sierra Loop-Backpack",
+      "price": 40000,
+      "quantity": 1,
+      "image": "https://m.media-amazon.com/images/I/81WK8gRDN7L._AC_SL1500_.jpg",
+      "product": {
+        "$oid": "616c42556208eba86f0ac235"
+      },
+      "_id": {
+        "$oid": "61aa1ba9e697895d6f817811"
+      }
+    }
+  ],
+  "user": {
+    "$oid": "619668e1760cc67d62b5eb7a"
+  },
+  "paymentInfo": {
+    "id": "pi_3K2boTEh7O1uuawX1Ngfs1g8",
+    "status": "succeeded"
+  },
+  "paidAt": {
+    "$date": "2021-12-03T13:29:12.995Z"
+  },
+  "itemsPrice": 40000,
+  "taxPrice": 960,
+  "shippingPrice": 50000,
+  "totalPrice": 90960,
+  "orderStatus": "Delivered",
+  "createdAt": {
+    "$date": "2021-12-03T13:29:13.003Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2021-12-04T14:04:47.900Z"
+  }
+}]

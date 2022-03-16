@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "618fd529339ac90d6540410c"
+  },
+  "name": "littlejaycece",
+  "email": "littlejaycece@gmail.com",
+  "password": "$2a$10$XXiezTwos7mVQWYHAYPxAeKLSi2Fj1aJ02XhI/XqB91Hmu6hFHClG",
+  "avatar": {
+    "public_id": "avatars/djjfgofdjwof3swxetun",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1638947104/avatars/djjfgofdjwof3swxetun.jpg"
+  },
+  "role": "admin",
+  "createdAt": {
+    "$date": "2021-11-13T15:09:29.361Z"
+  },
+  "__v": 0,
+  "resetPasswordExpire": {
+    "$date": "2021-11-23T16:03:34.409Z"
+  }
+},{
+  "_id": {
+    "$oid": "6194dd0fb4ed77adfd78ce1c"
+  },
+  "name": "hanhi.it.2020",
+  "email": "hanhi.it.2020@gmail.com",
+  "password": "$2a$10$9KLprwT88ng28v2mUynd0.TUuHpquuVj1QVPD0UJQXp0mikhHDPW2",
+  "avatar": {
+    "public_id": "avatars/mclbemtkfjvqk6bsdac2",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1637145866/avatars/mclbemtkfjvqk6bsdac2.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-17T10:44:31.838Z"
+  },
+  "__v": 0,
+  "resetPasswordExpire": {
+    "$date": "2021-11-17T11:01:42.700Z"
+  }
+},{
+  "_id": {
+    "$oid": "619668e1760cc67d62b5eb7a"
+  },
+  "name": "NgQuangVu",
+  "email": "qvu006@gmail.com",
+  "password": "$2a$10$541iBejvuCYeAH00/1wCbut./AeI2P6ekdGL/QWGeapO0RyyN705a",
+  "avatar": {
+    "public_id": "avatars/pmdzcnyjawr7mb44ya6p",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1638535282/avatars/pmdzcnyjawr7mb44ya6p.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-18T14:53:21.627Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6199d6315434a22e53df2fde"
+  },
+  "name": "Quang Vu",
+  "email": "18110241@student.hcmute.edu.vn",
+  "password": "$2a$10$kmdpM2R3NYEC2UfBkrUbVuhDKNjJhSviT1EWX17uXVkR42FUL.IlG",
+  "avatar": {
+    "public_id": "avatars/hsmxpqsdvuouauj1iiyd",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1637674366/avatars/hsmxpqsdvuouauj1iiyd.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-21T05:16:33.031Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6199e90e5434a22e53df33a8"
+  },
+  "name": "Nguyen Vu",
+  "email": "it.me159@gmail.com",
+  "password": "$2a$10$bbGcE0TqbDVF2SceFqY3heaLpPqYDn5jm666zI17NeiSfFEbAuKeG",
+  "avatar": {
+    "public_id": "avatars/oilf0a3sqstnuxnz7uho",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1637476621/avatars/oilf0a3sqstnuxnz7uho.jpg"
+  },
+  "role": "admin",
+  "createdAt": {
+    "$date": "2021-11-21T06:37:02.039Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "619a8e43cc3a82c1fbb556e6"
+  },
+  "name": "incognito user",
+  "email": "18110168@student.hcmute.edu.vn",
+  "password": "$2a$10$gkzo0FZRGovGAGO8PpmVcOtDaHpeadFosrNXqgKBi.JNL4FTse0gq",
+  "avatar": {
+    "public_id": "avatars/yymlycni1ruahgi1teul",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1637518915/avatars/yymlycni1ruahgi1teul.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-21T18:21:55.459Z"
+  },
+  "__v": 0,
+  "resetPasswordExpire": {
+    "$date": "2021-11-21T18:39:07.463Z"
+  }
+},{
+  "_id": {
+    "$oid": "619ced4ed3da46c387b18462"
+  },
+  "name": "Phương Chi",
+  "email": "souldippy@gmail.com",
+  "password": "$2a$10$/zacqc6FysbZIUPti9.TgehMKZQyUOTPUyGdMK/foe1tLSPjl59lm",
+  "avatar": {
+    "public_id": "avatars/p3rqkw4rvauvqrznpyr1",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1637675113/avatars/p3rqkw4rvauvqrznpyr1.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-23T13:31:58.699Z"
+  },
+  "__v": 0,
+  "resetPasswordExpire": {
+    "$date": "2021-12-08T08:13:27.170Z"
+  }
+},{
+  "_id": {
+    "$oid": "619d127bd3da46c387b18cd0"
+  },
+  "name": "Vu Nguyen",
+  "email": "it.me@gmail.com",
+  "password": "$2a$10$mEAyq07ohx/DmS9aJXDm6uxHI9MDR0DFbq1Oa7cmTVrfaPxpRkazK",
+  "avatar": {
+    "public_id": "avatars/xhr2lwnavidp5jbwcuic",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1637684724/avatars/xhr2lwnavidp5jbwcuic.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-23T16:10:35.640Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b05c92d92bb36248f12a90"
+  },
+  "name": "#$#$#$@",
+  "email": "thuychi@gmail.com",
+  "password": "$2a$10$r2OfrSCiZyzXA3aoXMBPa.2xjBkEljp07Yv1Scj4nN7FwmdXYThLG",
+  "avatar": {
+    "public_id": "avatars/zc5vxhaypyveilsdtuxj",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1638947985/avatars/zc5vxhaypyveilsdtuxj.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-12-08T07:19:46.096Z"
+  },
+  "__v": 0,
+  "resetPasswordExpire": {
+    "$date": "2021-12-08T08:06:39.778Z"
+  }
+},{
+  "_id": {
+    "$oid": "61b05cdbd92bb36248f12a9e"
+  },
+  "name": "vuxx",
+  "email": "vuxx2@gmail.com",
+  "password": "$2a$10$HAZY6pKdqznsPfQ/oxH6euoRu8hdaOAu/JrB3gaxpDJ5g.Ovsd49u",
+  "avatar": {
+    "public_id": "avatars/aq9imctcqpdaswnawybt",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1638950234/avatars/aq9imctcqpdaswnawybt.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-12-08T07:20:59.122Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b05fc7d92bb36248f12af9"
+  },
+  "name": "Thuy Chi",
+  "email": "thuychuyen@gmail.com",
+  "password": "$2a$10$fnMeRUtU7O0wUSJnZhhUe.F91XwowD4CZk5iJzRDxQxwSM3XkxQHi",
+  "avatar": {
+    "public_id": "avatars/xpysjwjzwmzics5utrwy",
+    "url": "https://res.cloudinary.com/dfuxgg7x6/image/upload/v1638948806/avatars/xpysjwjzwmzics5utrwy.jpg"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-12-08T07:33:27.149Z"
+  },
+  "__v": 0
+}]
