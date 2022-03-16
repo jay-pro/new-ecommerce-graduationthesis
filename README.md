@@ -12,27 +12,27 @@
   <tr>
     <td align="center">
       <a href="https://github.com/jay-pro/new-ecommerce-graduationthesis" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/mongodb.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/mongodb.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jay-pro/new-ecommerce-graduationthesis" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/expressjs.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/expressjs.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jay-pro/new-ecommerce-graduationthesis" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/reactjs.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/reactjs.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jay-pro/new-ecommerce-graduationthesis" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/nodejs.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/nodejs.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jay-pro/new-ecommerce-graduationthesis" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/redux.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/redux.png" width="50" />
       </a>
     </td>
   </tr>
@@ -46,27 +46,27 @@
   <tr>
     <td align="center">
       <a href="https://cloud.mongodb.com/" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/mongodbatlas.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/mongodbatlas.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://cloudinary.com" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/cloudinary.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/cloudinary.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://www.postman.com/" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/postman.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/postman.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://help.jungleworks.com/tiger/how-to-configure-your-stripe-account-and-get-api-keys-for-your-marketplace/" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/stripe.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/stripe.png" width="50" />
       </a>
     </td>
     <td align="center">
       <a href="https://devcenter.heroku.com/articles/heroku-cli" target="_blank">
-        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/tree/main/Documents/ReadmeImages/heroku.png" width="50" />
+        <img src="https://github.com/jay-pro/new-ecommerce-graduationthesis/blob/main/documents/ReadmeImages/heroku.png" width="50" />
       </a>
     </td>
   </tr>
