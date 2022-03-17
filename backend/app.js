@@ -1,4 +1,4 @@
-/* const express = require("express");
+const express = require("express");
 const app = express();
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
@@ -32,4 +32,3 @@ app.get("*", (req, res) => {
 app.use(errorMiddleware);
 
 module.exports = app;
- */

@@ -1,4 +1,4 @@
-/* const Order = require("../models/orderModel");
+const Order = require("../models/orderModel");
 const Product = require("../models/productModel");
 const ErrorHander = require("../utils/errorhander");
 const catchAsyncError = require("../middleware/catchAsyncError");
@@ -128,4 +128,3 @@ exports.deleteOrder = catchAsyncError(async (req, res, next) => {
     success: true,
   });
 });
- */

@@ -1,19 +1,4 @@
 const app = require("./app");
-
-const dotenv = require("dotenv");
-
-
-//Config
-dotenv.config({path:"backend/config/config.env"});
-
-app.listen(process.env.PORT,()=>{
-
-  console.log(`Server is working on http://localhost:${process.env.PORT}`);
-})
-
-
-/* 
-const app = require("./app");
 const cloudinary = require("cloudinary");
 const connectDatabase = require("./config/database");
 
@@ -47,4 +32,3 @@ process.on("unhandledRejection", (err) => {
     process.exit(1);
   });
 });
- */

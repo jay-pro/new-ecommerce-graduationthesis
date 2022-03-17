@@ -1,4 +1,4 @@
-/* const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 const connectDatabase = () => {
   mongoose
@@ -11,4 +11,3 @@ const connectDatabase = () => {
 };
 
 module.exports = connectDatabase;
- */

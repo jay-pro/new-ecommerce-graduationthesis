@@ -1,4 +1,4 @@
-/* const Product = require("../models/productModel");
+const Product = require("../models/productModel");
 const ErrorHander = require("../utils/errorhander");
 const catchAsyncError = require("../middleware/catchAsyncError");
 const ApiFeatures = require("../utils/apifeatures");
@@ -247,4 +247,3 @@ exports.deleteReview = catchAsyncError(async (req, res, next) => {
     success: true,
   });
 });
- */
