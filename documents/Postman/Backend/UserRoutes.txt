@@ -1,0 +1,72 @@
+Create / Update Review:
+PUT: http://localhost:4000/api/v1/review
+Body: 
+{
+    "productId":"616fef8ae46e06694b4c9424",
+    "comment":"Rat dang tien",
+    "rating":5
+}
+
+----------------------------------------------------------------------------
+
+Get User Details:
+GET: http://localhost:4000/api/v1/me
+
+----------------------------------------------------------------------------
+
+Update User Password:
+PUT: http://localhost:4000/api/v1/password/update
+Body: 
+{
+    "oldPassword":"littlejayce",
+    "newPassword":"littlejaycece",
+    "confirmPassword":"littlejaycece"
+}
+
+----------------------------------------------------------------------------
+
+Update User Profile:
+PUT: http://localhost:4000/api/v1/me/update
+Body: 
+{
+    "name":"littlejaycece"
+}
+
+----------------------------------------------------------------------------
+
+Admin Role - Get all users:
+GET: http://localhost:4000/api/v1/admin/users
+
+----------------------------------------------------------------------------
+
+Admin Role - Delete an user:
+DELETE: http://localhost:4000/api/v1/admin/user/616c5ffe8fee47083aaedb73
+
+----------------------------------------------------------------------------
+
+Admin Role - Update User:
+PUT: http://localhost:4000/api/v1/admin/user/617147c20e7cfa5c467e3c1f
+Body: 
+{
+    "name":"littlejaycece"
+}
+
+----------------------------------------------------------------------------
+
+Admin Role - Get an user details:
+GET: http://localhost:4000/api/v1/admin/user/617147c20e7cfa5c467e3c1f
+
+----------------------------------------------------------------------------
+
+Get All Reviews (Oops):
+GET: http://localhost:4000/api/v1/reviews?Id=616fe2938ec56e16c8eefbba
+Params:
+    + Id    616fe2938ec56e16c8eefbba
+
+----------------------------------------------------------------------------
+
+Delete A Review (Oops):
+DELETE: http://localhost:4000/api/v1/reviews?Id=616fe2938ec56e16c8eefbba&productId=616e6650ddd5762aa4f544a9
+Params:
+    + Id    616fe2938ec56e16c8eefbba
+    + productId     616e6650ddd5762aa4f544a9
