@@ -1,4 +1,4 @@
-/* const ErrorHander = require("../utils/errorhander");
+const ErrorHander = require("../utils/errorhander");
 const catchAsyncError = require("../middleware/catchAsyncError");
 const User = require("../models/userModel");
 const sendToken = require("../utils/jwtToken");
@@ -253,4 +253,3 @@ exports.deleteUser = catchAsyncError(async (req, res, next) => {
     message: "User deleted successfully",
   });
 });
- */

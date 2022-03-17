@@ -1,4 +1,4 @@
-/* const catchAsyncError = require("./catchAsyncError");
+const catchAsyncError = require("./catchAsyncError");
 const ErrorHander = require("../utils/errorhander");
 const jwt = require("jsonwebtoken");
 const User = require("../models/userModel");
@@ -31,4 +31,3 @@ exports.authorizeRoles = (...roles) => {
     next();
   };
 };
- */
