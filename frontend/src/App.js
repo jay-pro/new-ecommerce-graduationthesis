@@ -1,7 +1,7 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { /* useEffect, */ useState } from "react";
 import Header from "./component/layout/Header/Header.js";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import WebFont from "webfontloader";
 import React from "react";
 import Footer from "./component/layout/Footer/Footer";
@@ -23,7 +23,7 @@ import ResetPassword from "./component/User/ResetPassword";
 import Cart from "./component/Cart/Cart";
 import Shipping from "./component/Cart/Shipping";
 import ConfirmOrder from "./component/Cart/ConfirmOrder";
-import axios from "axios";
+import {axios} from "axios";
 import Payment from "./component/Cart/Payment";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
@@ -80,7 +80,7 @@ function App() {
         </Elements>
       )}
 
-      <Switch>
+      <Routes>
         <Route exact path="/" component={Home} />
         <Route exact path="/product/:id" component={ProductDetails} />
         <Route exact path="/products" component={Products} />
@@ -163,7 +163,7 @@ function App() {
             window.location.pathname === "/process/payment" ? null : NotFound
           }
         />
-      </Switch>
+      </Routes>
 
       <Footer />
     </Router>
