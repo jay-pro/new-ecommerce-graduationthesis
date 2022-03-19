@@ -1,4 +1,4 @@
-/* import axios from "axios";
+import axios from "axios";
 
 import {
   ALL_PRODUCT_FAIL,
@@ -236,4 +236,3 @@ export const deleteReviews = (reviewId, productId) => async (dispatch) => {
 export const clearErrors = () => async (dispatch) => {
   dispatch({ type: CLEAR_ERRORS });
 };
- */

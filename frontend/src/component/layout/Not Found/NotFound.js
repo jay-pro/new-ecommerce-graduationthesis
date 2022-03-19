@@ -1,4 +1,4 @@
-/* import React from "react";
+import React from "react";
 import NotFoundImage from "../../../images/catSee.png";
 import "./NotFound.css";
 import { Typography } from "@material-ui/core";
@@ -15,4 +15,3 @@ const NotFound = () => {
 };
 
 export default NotFound;
- */

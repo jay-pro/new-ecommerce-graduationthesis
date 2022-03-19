@@ -6,6 +6,7 @@ const sendEmail = require("../utils/sendEmail");
 const crypto = require("crypto");
 const cloudinary = require("cloudinary");
 
+//Register a User (older version: catchAsyncErrors)
 exports.registerUser = catchAsyncError(async (req, res, next) => {
   const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
     folder: "avatars",
@@ -28,8 +29,10 @@ exports.registerUser = catchAsyncError(async (req, res, next) => {
   sendToken(user, 201, res);
 });
 
+//Login User
 exports.loginUser = catchAsyncError(async (req, res, next) => {
   const { email, password } = req.body;
+  //checking if user has given password and email both
   if (!email || !password) {
     return next(new ErrorHander("Please enter email and password", 400));
   }
@@ -47,6 +50,7 @@ exports.loginUser = catchAsyncError(async (req, res, next) => {
   sendToken(user, 200, res);
 });
 
+//Logout User
 exports.logout = catchAsyncError(async (req, res, next) => {
   res.cookie("token", null, {
     expires: new Date(Date.now()),
@@ -59,18 +63,22 @@ exports.logout = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Forgot Password
 exports.forgotPassword = catchAsyncError(async (req, res, next) => {
   const user = await User.findOne({ email: req.body.email });
   if (!user) {
     return next(new ErrorHander("User not found", 404));
   }
 
+  //Get ResetPassword Token
   const resetToken = user.getResetPasswordToken();
   await user.save({ validateBeforeSave: false });
 
   const resetPasswordUrl = `${req.protocol}://${req.get(
     "host"
   )}/api/v1/password/reset/${resetToken}`;
+
+  /* const resetPasswordUrl = `${process.env.FRONTEND_URL}/password/reset/${resetToken}`; */
 
   const message = `Your password reset token is temporary: - \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
   try {
@@ -92,6 +100,7 @@ exports.forgotPassword = catchAsyncError(async (req, res, next) => {
   }
 });
 
+//Reset Password
 exports.resetPassword = catchAsyncError(async (req, res, next) => {
   const resetPasswordToken = crypto
     .createHash("sha256")
@@ -125,6 +134,7 @@ exports.resetPassword = catchAsyncError(async (req, res, next) => {
   sendToken(user, 200, res);
 });
 
+// Get User Detail
 exports.getUserDetails = catchAsyncError(async (req, res, next) => {
   const user = await User.findById(req.user.id);
 
@@ -134,6 +144,7 @@ exports.getUserDetails = catchAsyncError(async (req, res, next) => {
   });
 });
 
+// Update User password
 exports.updatePassword = catchAsyncError(async (req, res, next) => {
   const user = await User.findById(req.user.id).select("+password");
 
@@ -154,6 +165,7 @@ exports.updatePassword = catchAsyncError(async (req, res, next) => {
   sendToken(user, 200, res);
 });
 
+// Update User Profile
 exports.updateProfile = catchAsyncError(async (req, res, next) => {
   const newUserData = {
     name: req.body.name,
@@ -191,6 +203,7 @@ exports.updateProfile = catchAsyncError(async (req, res, next) => {
   });
 });
 
+// Get all users (admin)
 exports.getAllUser = catchAsyncError(async (req, res, next) => {
   const users = await User.find();
 
@@ -200,6 +213,7 @@ exports.getAllUser = catchAsyncError(async (req, res, next) => {
   });
 });
 
+// Get single user (admin)
 exports.getSingleUser = catchAsyncError(async (req, res, next) => {
   const user = await User.findById(req.params.id);
 
@@ -215,6 +229,7 @@ exports.getSingleUser = catchAsyncError(async (req, res, next) => {
   });
 });
 
+// Update User Role (admin)
 exports.updateUserRole = catchAsyncError(async (req, res, next) => {
   const newUserData = {
     name: req.body.name,
@@ -233,6 +248,7 @@ exports.updateUserRole = catchAsyncError(async (req, res, next) => {
   });
 });
 
+// Delete User (admin)
 exports.deleteUser = catchAsyncError(async (req, res, next) => {
   const user = await User.findById(req.params.id);
 

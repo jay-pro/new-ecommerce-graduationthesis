@@ -1,4 +1,4 @@
-/* import React, { useState, Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import MetaData from "../layout/MetaData";
 import "./Search.css";
 
@@ -30,4 +30,3 @@ const Search = ({ history }) => {
 };
 
 export default Search;
- */

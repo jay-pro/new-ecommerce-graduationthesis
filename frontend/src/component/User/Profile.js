@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import { useSelector } from "react-redux";
 import MetaData from "../layout/MetaData";
 import Loader from "../layout/Loader/Loader";
@@ -53,4 +53,3 @@ const Profile = ({ history }) => {
 };
 
 export default Profile;
- */

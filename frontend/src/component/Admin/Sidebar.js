@@ -1,4 +1,4 @@
-/* import React from "react";
+import React from "react";
 import "./sidebar.css";
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
@@ -61,4 +61,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
- */

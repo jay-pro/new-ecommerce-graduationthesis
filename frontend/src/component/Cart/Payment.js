@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect, useRef } from "react";
+import React, { Fragment, useEffect, useRef } from "react";
 import CheckoutSteps from "../Cart/CheckoutSteps";
 import { useSelector, useDispatch } from "react-redux";
 import MetaData from "../layout/MetaData";
@@ -145,4 +145,3 @@ const Payment = ({ history }) => {
 };
 
 export default Payment;
- */

@@ -3,6 +3,7 @@ const Product = require("../models/productModel");
 const ErrorHander = require("../utils/errorhander");
 const catchAsyncError = require("../middleware/catchAsyncError");
 
+// Create A New Order
 exports.newOrder = catchAsyncError(async (req, res, next) => {
   const {
     shippingInfo,
@@ -32,6 +33,7 @@ exports.newOrder = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Get A Single Order
 exports.getSingleOrder = catchAsyncError(async (req, res, next) => {
   const order = await Order.findById(req.params.id).populate(
     "user",
@@ -48,6 +50,7 @@ exports.getSingleOrder = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Get logged in user  Orders
 exports.myOrders = catchAsyncError(async (req, res, next) => {
   const orders = await Order.find({ user: req.user._id });
 
@@ -57,6 +60,7 @@ exports.myOrders = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Get all Orders (admin)
 exports.getAllOrders = catchAsyncError(async (req, res, next) => {
   const orders = await Order.find();
 
@@ -73,6 +77,7 @@ exports.getAllOrders = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Update Order Status - Admin Role
 exports.updateOrder = catchAsyncError(async (req, res, next) => {
   const order = await Order.findById(req.params.id);
 
@@ -115,6 +120,7 @@ async function updateStock(id, quantity) {
   await product.save({ validateBeforeSave: false });
 }
 
+//Delete Order (admin)
 exports.deleteOrder = catchAsyncError(async (req, res, next) => {
   const order = await Order.findById(req.params.id);
 

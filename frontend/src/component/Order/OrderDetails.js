@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import "./orderDetails.css";
 import { useSelector, useDispatch } from "react-redux";
 import MetaData from "../layout/MetaData";
@@ -120,4 +120,3 @@ const OrderDetails = ({ match }) => {
 };
 
 export default OrderDetails;
- */

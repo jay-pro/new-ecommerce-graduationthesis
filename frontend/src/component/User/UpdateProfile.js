@@ -1,4 +1,4 @@
-/* import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import "./UpdateProfile.css";
 import Loader from "../layout/Loader/Loader";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
@@ -132,4 +132,3 @@ const UpdateProfile = ({ history }) => {
 };
 
 export default UpdateProfile;
- */

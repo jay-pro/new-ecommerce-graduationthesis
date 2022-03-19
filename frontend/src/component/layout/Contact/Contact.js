@@ -1,4 +1,4 @@
-/* import React, { Fragment } from "react";
+import React, { Fragment } from "react";
 import "./Contact.css";
 import { Button } from "@material-ui/core";
 import MetaData from "../../layout/MetaData";
@@ -20,4 +20,3 @@ const Contact = () => {
 };
 
 export default Contact;
- */

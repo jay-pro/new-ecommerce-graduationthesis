@@ -1,4 +1,4 @@
-/* import React, { Fragment } from "react";
+import React, { Fragment } from "react";
 import CheckoutSteps from "../Cart/CheckoutSteps";
 import { useSelector } from "react-redux";
 import MetaData from "../layout/MetaData";
@@ -110,4 +110,3 @@ const ConfirmOrder = ({ history }) => {
 };
 
 export default ConfirmOrder;
- */

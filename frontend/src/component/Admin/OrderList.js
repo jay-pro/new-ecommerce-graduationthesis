@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 import "./productList.css";
 import { useSelector, useDispatch } from "react-redux";
@@ -142,4 +142,3 @@ const OrderList = ({ history }) => {
 };
 
 export default OrderList;
- */

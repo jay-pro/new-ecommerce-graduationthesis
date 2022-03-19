@@ -1,4 +1,4 @@
-/* import React, { Fragment } from "react";
+import React, { Fragment } from "react";
 import { useSelector } from "react-redux";
 import { Redirect, Route } from "react-router-dom";
 
@@ -28,4 +28,3 @@ const ProtectedRoute = ({ isAdmin, component: Component, ...rest }) => {
 };
 
 export default ProtectedRoute;
- */
