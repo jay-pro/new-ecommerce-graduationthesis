@@ -1,4 +1,4 @@
-/* import { Rating } from "@material-ui/lab";
+import { Rating } from "@material-ui/lab";
 import React from "react";
 import profilePng from "../../images/Profile.png";
 
@@ -21,4 +21,3 @@ const ReviewCard = ({ review }) => {
 };
 
 export default ReviewCard;
- */

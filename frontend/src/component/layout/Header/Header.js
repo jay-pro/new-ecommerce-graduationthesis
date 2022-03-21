@@ -1,6 +1,7 @@
-/* import React from "react";
+import React from "react";
 import { ReactNavbar } from "overlay-navbar";
-import logo from "../../../images/logo.png";
+import logo from "../../../images/logo.gif";
+/* import logo from "../../../images/logo.png"; */
 import "./Header.css";
 
 const options = {
@@ -49,4 +50,3 @@ const Header = () => {
 };
 
 export default Header;
- */

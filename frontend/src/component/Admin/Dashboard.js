@@ -1,4 +1,4 @@
-/* import React, { useEffect } from "react";
+import React, { useEffect } from "react";
 import Sidebar from "./Sidebar.js";
 import "./dashboard.css";
 import { Typography } from "@material-ui/core";
@@ -106,4 +106,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
- */

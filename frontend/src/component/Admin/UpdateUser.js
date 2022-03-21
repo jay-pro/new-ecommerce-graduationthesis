@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useAlert } from "react-alert";
 import { Button } from "@material-ui/core";
@@ -131,4 +131,3 @@ const UpdateUser = ({ history, match }) => {
 };
 
 export default UpdateUser;
- */

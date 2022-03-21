@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   clearErrors,
@@ -233,4 +233,3 @@ const UpdateProduct = ({ history, match }) => {
 };
 
 export default UpdateProduct;
- */

@@ -1,4 +1,4 @@
-/* const express = require("express");
+const express = require("express");
 const {
   registerUser,
   loginUser,
@@ -45,4 +45,3 @@ router
   .delete(isAuthenticatedUser, authorizeRoles("admin"), deleteUser);
 
 module.exports = router;
- */

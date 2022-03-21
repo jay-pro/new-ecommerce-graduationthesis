@@ -1,4 +1,4 @@
-/* import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import MetaData from "../layout/MetaData";
 import { Link } from "react-router-dom";
 import { Typography } from "@material-ui/core";
@@ -191,4 +191,3 @@ const ProcessOrder = ({ history, match }) => {
 };
 
 export default ProcessOrder;
- */

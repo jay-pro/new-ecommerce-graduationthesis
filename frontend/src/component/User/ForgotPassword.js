@@ -1,4 +1,4 @@
-/* import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import "./ForgotPassword.css";
 import Loader from "../layout/Loader/Loader";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
@@ -79,4 +79,3 @@ const ForgotPassword = () => {
 };
 
 export default ForgotPassword;
- */

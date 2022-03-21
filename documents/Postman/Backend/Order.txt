@@ -1,0 +1,54 @@
+Create a new order:
+POST: http://localhost:4000/api/v1/order/new
+Body:
+{
+    "itemsPrice":1,
+    "taxPrice":1,
+    "shippingPrice":1,
+    "totalPrice":3,
+    "orderItems":[
+        {
+            "product":"617baf2c059eaeaaf4a70e92",
+            "name":"Sach 1$",
+            "price":1,
+            "image":"sample Image",
+            "quantity":1
+        }
+    ],
+    "shippingInfo":{
+        "address":"Tay Ninh, Viet Nam",
+        "city":"Tay Ninh",
+        "state":"Tay Ninh",
+        "country":"Vietnam",
+        "pinCode":"400001",
+        "phoneNo":"0123456789"
+    },
+    "paymentInfo":{
+        "id":"sample paymentInfo",
+        "status":"succeeded"
+    }
+}
+
+----------------------------------------------------------------------------
+
+Get Single Order:
+GET: http://localhost:4000/api/v1/order/617bb116059eaeaaf4a70e9d
+
+----------------------------------------------------------------------------
+
+Admin Role - Get All Orders:
+GET: http://localhost:4000/api/v1/admin/orders
+
+----------------------------------------------------------------------------
+
+Admin Role - Update Order (Status):
+PUT: http://localhost:4000/api/v1//admin/order/617bb116059eaeaaf4a70e9d
+Body:
+{
+    "status": "Delivered"
+}
+
+----------------------------------------------------------------------------
+
+Admin Role - Delete Order:
+DELETE: http://localhost:4000/api/v1//admin/order/617bc37e9ff12b178a18c4e4

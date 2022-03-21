@@ -1,16 +1,21 @@
-/* const Product = require("../models/productModel");
+const Product = require("../models/productModel");
 const ErrorHander = require("../utils/errorhander");
 const catchAsyncError = require("../middleware/catchAsyncError");
 const ApiFeatures = require("../utils/apifeatures");
 const cloudinary = require("cloudinary");
 
+//Get All Products
 exports.getAllProducts = catchAsyncError(async (req, res, next) => {
-  const resultPerPage = 8;
+  /* return next(new ErrorHander("This is my temporary error", 500)); */
+  const resultPerPage = 8; //5 products per page
   const productsCount = await Product.countDocuments();
 
   const apiFeature = new ApiFeatures(Product.find(), req.query)
     .search()
     .filter();
+  /* .pagination(resultPerPage); */
+
+  /* const products = await apiFeature.query; */
 
   let products = await apiFeature.query;
 
@@ -18,7 +23,7 @@ exports.getAllProducts = catchAsyncError(async (req, res, next) => {
 
   apiFeature.pagination(resultPerPage);
 
-  products = await apiFeature.query.clone(); 
+  products = await apiFeature.query.clone(); /*thêm .clone() cho query thứ 2 */
 
   res.status(200).json({
     success: true,
@@ -29,6 +34,7 @@ exports.getAllProducts = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Get A Product Details
 exports.getProductDetails = catchAsyncError(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
@@ -42,6 +48,7 @@ exports.getProductDetails = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Get All Product - Admin Role
 exports.getAdminProducts = catchAsyncError(async (req, res, next) => {
   const products = await Product.find();
 
@@ -51,24 +58,29 @@ exports.getAdminProducts = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Create A Product - Admin Role
 exports.createProduct = catchAsyncError(async (req, res, next) => {
-  //Cloudinary
   let images = [];
+
   if (typeof req.body.images === "string") {
     images.push(req.body.images);
   } else {
     images = req.body.images;
   }
+
   const imagesLinks = [];
+
   for (let i = 0; i < images.length; i++) {
     const result = await cloudinary.v2.uploader.upload(images[i], {
       folder: "products",
     });
+
     imagesLinks.push({
       public_id: result.public_id,
       url: result.secure_url,
     });
   }
+
   req.body.images = imagesLinks;
 
   req.body.user = req.user.id;
@@ -81,35 +93,45 @@ exports.createProduct = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Update A Product - Admin Role
 exports.updateProduct = catchAsyncError(async (req, res, next) => {
   let product = await Product.findById(req.params.id);
 
   if (!product) {
-    return next(new ErrorHander("Product not found", 404));
+    return res.status(500).json({
+      success: false,
+      message: "Product not found",
+    });
   }
 
   // Images Update:
   let images = [];
+
   if (typeof req.body.images === "string") {
     images.push(req.body.images);
   } else {
     images = req.body.images;
   }
+
   if (images !== undefined) {
     // Deleting Images From Cloudinary
     for (let i = 0; i < product.images.length; i++) {
       await cloudinary.v2.uploader.destroy(product.images[i].public_id);
     }
+
     const imagesLinks = [];
+
     for (let i = 0; i < images.length; i++) {
       const result = await cloudinary.v2.uploader.upload(images[i], {
         folder: "products",
       });
+
       imagesLinks.push({
         public_id: result.public_id,
         url: result.secure_url,
       });
     }
+
     req.body.images = imagesLinks;
   }
 
@@ -125,6 +147,7 @@ exports.updateProduct = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Delete A Product - Admin Role
 exports.deleteProduct = catchAsyncError(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
@@ -148,6 +171,7 @@ exports.deleteProduct = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Create A New Review or Update A Review
 exports.createProductReview = catchAsyncError(async (req, res, next) => {
   const { rating, comment, productId } = req.body;
 
@@ -174,6 +198,8 @@ exports.createProductReview = catchAsyncError(async (req, res, next) => {
     product.numOfReviews = product.reviews.length;
   }
 
+  //4,5,5,2 = 16/4 = 4
+
   let avg = 0;
 
   product.reviews.forEach((rev) => {
@@ -189,6 +215,7 @@ exports.createProductReview = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Get All Reviews of A Product
 exports.getProductReviews = catchAsyncError(async (req, res, next) => {
   const product = await Product.findById(req.query.id);
 
@@ -202,6 +229,7 @@ exports.getProductReviews = catchAsyncError(async (req, res, next) => {
   });
 });
 
+//Delete A Review
 exports.deleteReview = catchAsyncError(async (req, res, next) => {
   const product = await Product.findById(req.query.productId);
 
@@ -247,4 +275,3 @@ exports.deleteReview = catchAsyncError(async (req, res, next) => {
     success: true,
   });
 });
- */

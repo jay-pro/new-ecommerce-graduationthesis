@@ -1,4 +1,4 @@
-/* const express = require("express");
+const express = require("express");
 const {
   getAllProducts,
   getProductDetails,
@@ -39,4 +39,3 @@ router
   .delete(isAuthenticatedUser, deleteReview);
 
 module.exports = router;
- */

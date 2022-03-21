@@ -1,0 +1,47 @@
+Get all products:
+GET: http://localhost:4000/api/v1/products
+Params: None ticks
+    + page 
+    + category 
+    + price[gte]
+    + page
+
+----------------------------------------------------------------------------
+
+Admin Role - Create a product:
+POST: http://localhost:4000/api/v1/product/new
+Params:
+    + Key   Value 
+Body: 
+{
+	"name":"Đắc Nhân Tâm",
+	"description":"Top cuốn sách bán chạy nhất thế giới",
+	"price":56000,
+	"category":"Science Technology Books",
+	"Stock":8,
+	"numOfReviews":0,
+    "image":{
+        "public_id":"sample Image",
+        "url":"https://salt.tikicdn.com/cache/w1200/ts/product/df/7d/da/d340edda2b0eacb7ddc47537cddb5e08.jpg"
+    }
+}
+
+----------------------------------------------------------------------------
+
+Admin Role - Update a product:
+PUT: http://localhost:4000/api/v1/product/61db06484bcb374994ee6749
+Body:
+{
+    "price":60000,
+    "Stock":10
+}
+
+----------------------------------------------------------------------------
+
+Admin Role - Delete a product:
+DELETE: http://localhost:4000/api/v1/product/61db9a152048a596158c97da
+
+----------------------------------------------------------------------------
+
+Get a product details:
+GET: http://localhost:4000/api/v1/product/616e6ab40aac2dbea26bdd19

@@ -1,4 +1,4 @@
-/* import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import "./UpdatePassword.css";
 import Loader from "../layout/Loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
@@ -111,4 +111,3 @@ const UpdatePassword = ({ history }) => {
 };
 
 export default UpdatePassword;
- */

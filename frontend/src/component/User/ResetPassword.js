@@ -1,4 +1,4 @@
-/* import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import "./ResetPassword.css";
 import Loader from "../layout/Loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
@@ -93,4 +93,3 @@ const ResetPassword = ({ history, match }) => {
 };
 
 export default ResetPassword;
- */

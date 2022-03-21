@@ -1,4 +1,4 @@
-/* import React, { Fragment } from "react";
+import React, { Fragment } from "react";
 import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -52,4 +52,3 @@ const About = () => {
 };
 
 export default About;
- */

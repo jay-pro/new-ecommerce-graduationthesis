@@ -1,0 +1,41 @@
+Register User:
+POST: http://localhost:4000/api/v1/register
+Body: 
+{
+    "name":"Hani",
+    "email":"hanhi.it.2020@gmail.com",
+    "password":"hanhi.it"
+}
+
+----------------------------------------------------------------------------
+
+Login User: 
+POST: http://localhost:4000/api/v1/login
+{
+    "email":"littlejaycece@gmail.com",
+    "password":"littlejaycece"
+}
+
+----------------------------------------------------------------------------
+
+Logout User: 
+GET: http://localhost:4000/api/v1/logout
+
+----------------------------------------------------------------------------
+
+Forgot Password (Oops):
+POST: http://localhost:4000/api/v1/password/forgot
+Body: 
+{
+    "email":"littlejaycece@gmail.com"
+}
+
+----------------------------------------------------------------------------
+
+Reset Password (Oops):
+PUT: http://localhost:4000/api/v1/password/reset/(mã token)
+Body: 
+{
+    "password":"0123456789",
+    "confirmPassword":"0123456789"
+}

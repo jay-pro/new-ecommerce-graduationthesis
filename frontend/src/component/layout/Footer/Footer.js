@@ -1,4 +1,4 @@
-/* import React from "react";
+import React from "react";
 import playStore from "../../../images/playstore.png";
 import appStore from "../../../images/appstore.png";
 import "./Footer.css";
@@ -31,4 +31,3 @@ const Footer = () => {
 };
 
 export default Footer;
- */
