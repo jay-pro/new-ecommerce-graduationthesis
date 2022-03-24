@@ -42,7 +42,7 @@ const Cart = ({ history }) => {
       <Fragment>
         {cartItems.length === 0 ? (
           <div className="emptyCart">
-            <img src={NothingInCart} />
+            <img src={NothingInCart} alt="catInCart"/>
             <Typography>You haven't got any products in your Cart</Typography>
             <Link to="/products">View Products of our Website</Link>
           </div>

@@ -13,7 +13,7 @@ const Contact = () => {
           <Button>Contact: 18110168@student.hcmute.edu.vn</Button>
           <Button>Contact: 18110241@student.hcmute.edu.vn</Button>
         </a>
-        <img src={ContactImage} />
+        <img src={ContactImage} alt="catInVet"/>
       </div>
     </Fragment>
   );

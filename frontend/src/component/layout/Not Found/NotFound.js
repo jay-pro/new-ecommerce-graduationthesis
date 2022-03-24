@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const NotFound = () => {
   return (
     <div className="PageNotFound">
-      <img src={NotFoundImage} />
+      <img src={NotFoundImage} alt="catSee"/>
       <Typography>Page Not Found!</Typography>
       <Link to="/">Back to Homepage</Link>
     </div>

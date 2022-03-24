@@ -89,7 +89,7 @@ const Dashboard = () => {
               <p>Users</p>
               <p>{users && users.length}</p>
             </Link>
-            <img src={CatCard} />
+            <img src={CatCard} alt="catCard" />
           </div>
         </div>
 
